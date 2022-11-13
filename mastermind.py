@@ -43,7 +43,7 @@ def guessing(turn_counter):
                 continue
 
     if feedback[0] == 'R' and feedback[1] == 'R' and feedback[2] == 'R' and feedback [3] == 'R':
-        print("You guessed correctly!")
+        print("You guessed correctly!\n")
     else:
         print(feedback)
         guessing(turn_counter)
